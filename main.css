@@ -1,7 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+
+.navbar .container-fluid{
+    padding: 0 43px;
+}
 .navbar-brand {
     margin-right: 120px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .navbar-nav .nav-item {
     margin-right: 30px;
+}
+
+/*---------------------------------------------------------*/
+
+.top-header {
+    background-color: #f8f9fa;
+    padding: 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.top-header .container_ofheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 235px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.top-header .container_textofaddress {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    padding: 0 43px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.top-header .textofaddress {
+    display: flex;
+    align-items: center;
+    gap: 3px; 
+}
+
+.top-header .textofaddress i {
+    color: #777181; 
+    font-size: 12px;
+    width: 8px;
+    height: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.top-header .textofaddress .address {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #777181;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+/*----------------------------------------------------*/
+
+.top-header .container_abouticonlinks {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    padding: 0 43px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.top-header .container_about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 15px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+
+.top-header .textofabout {
+    display: flex;
+    align-items: center;
+    gap: 3px;  
+}
+
+.top-header .textofabout .about {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+
+    color: #777181;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.top-header .container_iconlinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+
+.top-header .container_iconlinks .iconlinks {
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
